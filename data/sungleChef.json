@@ -1,0 +1,314 @@
+[
+    {
+      "id": 1,
+      "name": "John Smith",
+      "image": "https://thumbs.dreamstime.com/b/european-male-chef-smiles-holds-baking-tray-hot-italian-pizza-bright-kitchen-european-male-chef-smiles-holds-172989571.jpg",
+      "description": "A talented chef with experience in international cuisine.",
+      "works": [
+        {
+          "id": 1,
+          "name": "Spaghetti Carbonara",
+          "image": "https://media.istockphoto.com/id/95616888/photo/close-up-of-a-plate-of-fettuccine-carbonara.jpg?s=612x612&w=0&k=20&c=9Kbmlx_Emn84WYNMonxkBvdb78I9ZmGPXB3eE7QSlag=",
+          "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese."
+        },
+        {
+          "id": 2,
+          "name": "Grilled Salmon",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuBIA_y-0ynwmXN7sgDo2FcQLy34ctPsrrKKnkm8Nw6Q&s",
+          "description": "A healthy and flavorful dish made with fresh salmon fillets and a herb marinade."
+        },
+        {
+          "id": 3,
+          "name": "Beef Stir Fry",
+          "image": "https://media.istockphoto.com/id/642065070/photo/beef-and-broccoli-stir-fry.jpg?s=612x612&w=0&k=20&c=BwichHy9JJCe8u7Zdx4EDp3CzAn-bK-xBIRMl7u3UnM=",
+          "description": "A quick and easy Asian-inspired dish made with tender strips of beef, mixed vegetables, and a savory sauce."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Maria Rodriguez",
+      "image": "https://thumbs.dreamstime.com/z/happy-african-american-chef-holding-plate-cooked-steak-vegetables-restaurant-kitchen-129307283.jpg",
+      "description": "A talented chef with experience in international cuisine.",
+      "works": [
+        {
+          "id": 1,
+          "name": "Spaghetti Carbonara",
+          "image": "https://media.istockphoto.com/id/95616888/photo/close-up-of-a-plate-of-fettuccine-carbonara.jpg?s=612x612&w=0&k=20&c=9Kbmlx_Emn84WYNMonxkBvdb78I9ZmGPXB3eE7QSlag=",
+          "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese."
+        },
+        {
+          "id": 2,
+          "name": "Grilled Salmon",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuBIA_y-0ynwmXN7sgDo2FcQLy34ctPsrrKKnkm8Nw6Q&s",
+          "description": "A healthy and flavorful dish made with fresh salmon fillets and a herb marinade."
+        },
+        {
+          "id": 3,
+          "name": "Beef Stir Fry",
+          "image": "https://media.istockphoto.com/id/642065070/photo/beef-and-broccoli-stir-fry.jpg?s=612x612&w=0&k=20&c=BwichHy9JJCe8u7Zdx4EDp3CzAn-bK-xBIRMl7u3UnM=",
+          "description": "A quick and easy Asian-inspired dish made with tender strips of beef, mixed vegetables, and a savory sauce."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "David Lee",
+      "image": "https://img.freepik.com/free-photo/happy-young-cook-uniform-holding-salad_171337-5343.jpg",
+      "description": "A talented chef with experience in international cuisine.",
+      "works": [
+        {
+          "id": 1,
+          "name": "Spaghetti Carbonara",
+          "image": "https://media.istockphoto.com/id/95616888/photo/close-up-of-a-plate-of-fettuccine-carbonara.jpg?s=612x612&w=0&k=20&c=9Kbmlx_Emn84WYNMonxkBvdb78I9ZmGPXB3eE7QSlag=",
+          "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese."
+        },
+        {
+          "id": 2,
+          "name": "Grilled Salmon",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuBIA_y-0ynwmXN7sgDo2FcQLy34ctPsrrKKnkm8Nw6Q&s",
+          "description": "A healthy and flavorful dish made with fresh salmon fillets and a herb marinade."
+        },
+        {
+          "id": 3,
+          "name": "Beef Stir Fry",
+          "image": "https://media.istockphoto.com/id/642065070/photo/beef-and-broccoli-stir-fry.jpg?s=612x612&w=0&k=20&c=BwichHy9JJCe8u7Zdx4EDp3CzAn-bK-xBIRMl7u3UnM=",
+          "description": "A quick and easy Asian-inspired dish made with tender strips of beef, mixed vegetables, and a savory sauce."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Emily Chen",
+      "image": "https://thumbs.dreamstime.com/z/chef-ladle-mature-professional-man-isolated-over-white-background-35579888.jpg",
+      "description": "A talented chef with experience in international cuisine.",
+      "works": [
+        {
+          "id": 1,
+          "name": "Spaghetti Carbonara",
+          "image": "https://media.istockphoto.com/id/95616888/photo/close-up-of-a-plate-of-fettuccine-carbonara.jpg?s=612x612&w=0&k=20&c=9Kbmlx_Emn84WYNMonxkBvdb78I9ZmGPXB3eE7QSlag=",
+          "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese."
+        },
+        {
+          "id": 2,
+          "name": "Grilled Salmon",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuBIA_y-0ynwmXN7sgDo2FcQLy34ctPsrrKKnkm8Nw6Q&s",
+          "description": "A healthy and flavorful dish made with fresh salmon fillets and a herb marinade."
+        },
+        {
+          "id": 3,
+          "name": "Beef Stir Fry",
+          "image": "https://media.istockphoto.com/id/642065070/photo/beef-and-broccoli-stir-fry.jpg?s=612x612&w=0&k=20&c=BwichHy9JJCe8u7Zdx4EDp3CzAn-bK-xBIRMl7u3UnM=",
+          "description": "A quick and easy Asian-inspired dish made with tender strips of beef, mixed vegetables, and a savory sauce."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Michael Johnson",
+      "image": "https://www.shutterstock.com/image-photo/chef-cook-adding-spices-salt-260nw-1923170684.jpg",
+      "description": "A talented chef with experience in international cuisine.",
+      "works": [
+        {
+          "id": 1,
+          "name": "Spaghetti Carbonara",
+          "image": "https://media.istockphoto.com/id/95616888/photo/close-up-of-a-plate-of-fettuccine-carbonara.jpg?s=612x612&w=0&k=20&c=9Kbmlx_Emn84WYNMonxkBvdb78I9ZmGPXB3eE7QSlag=",
+          "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese."
+        },
+        {
+          "id": 2,
+          "name": "Grilled Salmon",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuBIA_y-0ynwmXN7sgDo2FcQLy34ctPsrrKKnkm8Nw6Q&s",
+          "description": "A healthy and flavorful dish made with fresh salmon fillets and a herb marinade."
+        },
+        {
+          "id": 3,
+          "name": "Beef Stir Fry",
+          "image": "https://media.istockphoto.com/id/642065070/photo/beef-and-broccoli-stir-fry.jpg?s=612x612&w=0&k=20&c=BwichHy9JJCe8u7Zdx4EDp3CzAn-bK-xBIRMl7u3UnM=",
+          "description": "A quick and easy Asian-inspired dish made with tender strips of beef, mixed vegetables, and a savory sauce."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Sophia Lee",
+      "image": "https://thumbs.dreamstime.com/z/smiling-chef-man-uniform-23326629.jpg",
+      "description": "A talented chef with experience in international cuisine.",
+      "works": [
+        {
+          "id": 1,
+          "name": "Spaghetti Carbonara",
+          "image": "https://media.istockphoto.com/id/95616888/photo/close-up-of-a-plate-of-fettuccine-carbonara.jpg?s=612x612&w=0&k=20&c=9Kbmlx_Emn84WYNMonxkBvdb78I9ZmGPXB3eE7QSlag=",
+          "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese."
+        },
+        {
+          "id": 2,
+          "name": "Grilled Salmon",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuBIA_y-0ynwmXN7sgDo2FcQLy34ctPsrrKKnkm8Nw6Q&s",
+          "description": "A healthy and flavorful dish made with fresh salmon fillets and a herb marinade."
+        },
+        {
+          "id": 3,
+          "name": "Beef Stir Fry",
+          "image": "https://media.istockphoto.com/id/642065070/photo/beef-and-broccoli-stir-fry.jpg?s=612x612&w=0&k=20&c=BwichHy9JJCe8u7Zdx4EDp3CzAn-bK-xBIRMl7u3UnM=",
+          "description": "A quick and easy Asian-inspired dish made with tender strips of beef, mixed vegetables, and a savory sauce."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Alexandre Martin",
+      "image": "https://img.freepik.com/free-photo/professional-male-chef-cook-white-uniform-cook-hat-pointing-sidewith-index-finger-looking-confident-standing-white-background_141793-20622.jpg",
+      "description": "A talented chef with experience in international cuisine.",
+      "works": [
+        {
+          "id": 1,
+          "name": "Spaghetti Carbonara",
+          "image": "https://media.istockphoto.com/id/95616888/photo/close-up-of-a-plate-of-fettuccine-carbonara.jpg?s=612x612&w=0&k=20&c=9Kbmlx_Emn84WYNMonxkBvdb78I9ZmGPXB3eE7QSlag=",
+          "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese."
+        },
+        {
+          "id": 2,
+          "name": "Grilled Salmon",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuBIA_y-0ynwmXN7sgDo2FcQLy34ctPsrrKKnkm8Nw6Q&s",
+          "description": "A healthy and flavorful dish made with fresh salmon fillets and a herb marinade."
+        },
+        {
+          "id": 3,
+          "name": "Beef Stir Fry",
+          "image": "https://media.istockphoto.com/id/642065070/photo/beef-and-broccoli-stir-fry.jpg?s=612x612&w=0&k=20&c=BwichHy9JJCe8u7Zdx4EDp3CzAn-bK-xBIRMl7u3UnM=",
+          "description": "A quick and easy Asian-inspired dish made with tender strips of beef, mixed vegetables, and a savory sauce."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Jessica Brown",
+      "image": "https://i.guim.co.uk/img/media/ab68e8d61c943d3ffd120620ca2ff4b54512bdd1/401_160_5359_3215/master/5359.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=790d2413c40d7452b46d41a7aba12895",
+      "description": "A talented chef with experience in international cuisine.",
+      "works": [
+        {
+          "id": 1,
+          "name": "Spaghetti Carbonara",
+          "image": "https://media.istockphoto.com/id/95616888/photo/close-up-of-a-plate-of-fettuccine-carbonara.jpg?s=612x612&w=0&k=20&c=9Kbmlx_Emn84WYNMonxkBvdb78I9ZmGPXB3eE7QSlag=",
+          "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese."
+        },
+        {
+          "id": 2,
+          "name": "Grilled Salmon",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuBIA_y-0ynwmXN7sgDo2FcQLy34ctPsrrKKnkm8Nw6Q&s",
+          "description": "A healthy and flavorful dish made with fresh salmon fillets and a herb marinade."
+        },
+        {
+          "id": 3,
+          "name": "Beef Stir Fry",
+          "image": "https://media.istockphoto.com/id/642065070/photo/beef-and-broccoli-stir-fry.jpg?s=612x612&w=0&k=20&c=BwichHy9JJCe8u7Zdx4EDp3CzAn-bK-xBIRMl7u3UnM=",
+          "description": "A quick and easy Asian-inspired dish made with tender strips of beef, mixed vegetables, and a savory sauce."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Thomas Kim",
+      "image": "https://img.freepik.com/free-photo/portrait-handsome-male-chef-dressed-uniform_171337-5352.jpg",
+      "description": "A talented chef with experience in international cuisine.",
+      "works": [
+        {
+          "id": 1,
+          "name": "Spaghetti Carbonara",
+          "image": "https://media.istockphoto.com/id/95616888/photo/close-up-of-a-plate-of-fettuccine-carbonara.jpg?s=612x612&w=0&k=20&c=9Kbmlx_Emn84WYNMonxkBvdb78I9ZmGPXB3eE7QSlag=",
+          "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese."
+        },
+        {
+          "id": 2,
+          "name": "Grilled Salmon",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuBIA_y-0ynwmXN7sgDo2FcQLy34ctPsrrKKnkm8Nw6Q&s",
+          "description": "A healthy and flavorful dish made with fresh salmon fillets and a herb marinade."
+        },
+        {
+          "id": 3,
+          "name": "Beef Stir Fry",
+          "image": "https://media.istockphoto.com/id/642065070/photo/beef-and-broccoli-stir-fry.jpg?s=612x612&w=0&k=20&c=BwichHy9JJCe8u7Zdx4EDp3CzAn-bK-xBIRMl7u3UnM=",
+          "description": "A quick and easy Asian-inspired dish made with tender strips of beef, mixed vegetables, and a savory sauce."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Elena Hernandez",
+      "image": "https://images.hindustantimes.com/img/2022/03/29/1600x900/1323c15a-ac54-11ec-9297-ed70bb26c8ff_1648538361707.jpg",
+      "description": "A talented chef with experience in international cuisine.",
+      "works": [
+        {
+          "id": 1,
+          "name": "Spaghetti Carbonara",
+          "image": "https://media.istockphoto.com/id/95616888/photo/close-up-of-a-plate-of-fettuccine-carbonara.jpg?s=612x612&w=0&k=20&c=9Kbmlx_Emn84WYNMonxkBvdb78I9ZmGPXB3eE7QSlag=",
+          "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese."
+        },
+        {
+          "id": 2,
+          "name": "Grilled Salmon",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuBIA_y-0ynwmXN7sgDo2FcQLy34ctPsrrKKnkm8Nw6Q&s",
+          "description": "A healthy and flavorful dish made with fresh salmon fillets and a herb marinade."
+        },
+        {
+          "id": 3,
+          "name": "Beef Stir Fry",
+          "image": "https://media.istockphoto.com/id/642065070/photo/beef-and-broccoli-stir-fry.jpg?s=612x612&w=0&k=20&c=BwichHy9JJCe8u7Zdx4EDp3CzAn-bK-xBIRMl7u3UnM=",
+          "description": "A quick and easy Asian-inspired dish made with tender strips of beef, mixed vegetables, and a savory sauce."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Daniel Chen",
+      "image": "https://thumbs.dreamstime.com/z/excited-man-chef-cook-wearing-uniform-opening-cloche-cover-isolated-over-white-background-showing-meat-dish-134114996.jpg",
+      "description": "A talented chef with experience in international cuisine.",
+      "works": [
+        {
+          "id": 1,
+          "name": "Spaghetti Carbonara",
+          "image": "https://media.istockphoto.com/id/95616888/photo/close-up-of-a-plate-of-fettuccine-carbonara.jpg?s=612x612&w=0&k=20&c=9Kbmlx_Emn84WYNMonxkBvdb78I9ZmGPXB3eE7QSlag=",
+          "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese."
+        },
+        {
+          "id": 2,
+          "name": "Grilled Salmon",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuBIA_y-0ynwmXN7sgDo2FcQLy34ctPsrrKKnkm8Nw6Q&s",
+          "description": "A healthy and flavorful dish made with fresh salmon fillets and a herb marinade."
+        },
+        {
+          "id": 3,
+          "name": "Beef Stir Fry",
+          "image": "https://media.istockphoto.com/id/642065070/photo/beef-and-broccoli-stir-fry.jpg?s=612x612&w=0&k=20&c=BwichHy9JJCe8u7Zdx4EDp3CzAn-bK-xBIRMl7u3UnM=",
+          "description": "A quick and easy Asian-inspired dish made with tender strips of beef, mixed vegetables, and a savory sauce."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Mia Wilson",
+      "image": "https://img.freepik.com/free-photo/portrait-confident-male-chef-kitchen_23-2147863584.jpg",
+      "description": "A talented chef with experience in international cuisine.",
+      "works": [
+        {
+          "id": 1,
+          "name": "Spaghetti Carbonara",
+          "image": "https://media.istockphoto.com/id/95616888/photo/close-up-of-a-plate-of-fettuccine-carbonara.jpg?s=612x612&w=0&k=20&c=9Kbmlx_Emn84WYNMonxkBvdb78I9ZmGPXB3eE7QSlag=",
+          "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese."
+        },
+        {
+          "id": 2,
+          "name": "Grilled Salmon",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuBIA_y-0ynwmXN7sgDo2FcQLy34ctPsrrKKnkm8Nw6Q&s",
+          "description": "A healthy and flavorful dish made with fresh salmon fillets and a herb marinade."
+        },
+        {
+          "id": 3,
+          "name": "Beef Stir Fry",
+          "image": "https://media.istockphoto.com/id/642065070/photo/beef-and-broccoli-stir-fry.jpg?s=612x612&w=0&k=20&c=BwichHy9JJCe8u7Zdx4EDp3CzAn-bK-xBIRMl7u3UnM=",
+          "description": "A quick and easy Asian-inspired dish made with tender strips of beef, mixed vegetables, and a savory sauce."
+        }
+      ]
+    }
+  ]
