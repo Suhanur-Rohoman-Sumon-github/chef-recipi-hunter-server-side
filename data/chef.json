@@ -1,0 +1,110 @@
+[
+    {
+      "id": 1,
+      "chefName": "John Smith",
+      "yearsOfExperience": 15,
+      "numberOfRecipes": 120,
+      "likes": 280,
+      "imageUrl": "https://thumbs.dreamstime.com/b/european-male-chef-smiles-holds-baking-tray-hot-italian-pizza-bright-kitchen-european-male-chef-smiles-holds-172989571.jpg",
+      "rating":"4.5"
+    },
+    {
+      "id": 2,
+      "chefName": "Maria Rodriguez",
+      "yearsOfExperience": 10,
+      "numberOfRecipes": 80,
+      "likes": 150,
+      "imageUrl": "https://example.com/maria-rodriguez.jpg",
+      "rating":"4.5"
+    },
+    {
+      "id": 3,
+      "chefName": "David Lee",
+      "yearsOfExperience": 8,
+      "numberOfRecipes": 65,
+      "likes": 100,
+      "imageUrl": "https://img.freepik.com/free-photo/happy-young-cook-uniform-holding-salad_171337-5343.jpg",
+      "rating":"4.5"
+    },
+    {
+      "id": 4,
+      "chefName": "Emily Chen",
+      "yearsOfExperience": 6,
+      "numberOfRecipes": 50,
+      "likes": 80,
+      "imageUrl": "https://thumbs.dreamstime.com/z/chef-ladle-mature-professional-man-isolated-over-white-background-35579888.jpg",
+      "rating":"4.5"
+    },
+    {
+      "id": 5,
+      "chefName": "Michael Johnson",
+      "yearsOfExperience": 12,
+      "numberOfRecipes": 95,
+      "likes": 200,
+      "imageUrl": "https://www.shutterstock.com/image-photo/chef-cook-adding-spices-salt-260nw-1923170684.jpg",
+      "rating":"4.5"
+    },
+    {
+      "id": 6,
+      "chefName": "Sophia Lee",
+      "yearsOfExperience": 4,
+      "numberOfRecipes": 40,
+      "likes": 60,
+      "imageUrl": "https://thumbs.dreamstime.com/z/smiling-chef-man-uniform-23326629.jpg",
+      "rating":"4.5"
+    },
+    {
+      "id": 7,
+      "chefName": "Alexandre Martin",
+      "yearsOfExperience": 20,
+      "numberOfRecipes": 150,
+      "likes": 350,
+      "imageUrl": "https://img.freepik.com/free-photo/professional-male-chef-cook-white-uniform-cook-hat-pointing-sidewith-index-finger-looking-confident-standing-white-background_141793-20622.jpg",
+      "rating":"4.5"
+    },
+    {
+      "id": 8,
+      "chefName": "Jessica Brown",
+      "yearsOfExperience": 9,
+      "numberOfRecipes": 75,
+      "likes": 120,
+      "imageUrl": "https://i.guim.co.uk/img/media/ab68e8d61c943d3ffd120620ca2ff4b54512bdd1/401_160_5359_3215/master/5359.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=790d2413c40d7452b46d41a7aba12895",
+      "rating":"4.5"
+    },
+    {
+      "id": 9,
+      "chefName": "Thomas Kim",
+      "yearsOfExperience": 7,
+      "numberOfRecipes": 55,
+      "likes": 90,
+      "imageUrl": "https://img.freepik.com/free-photo/portrait-handsome-male-chef-dressed-uniform_171337-5352.jpg",
+      "rating":"4.5"
+    },
+    {
+      "id": 10,
+      "chefName": "Elena Hernandez",
+      "yearsOfExperience": 11,
+      "numberOfRecipes": 90,
+      "likes": 180,
+      "imageUrl": "https://images.hindustantimes.com/img/2022/03/29/1600x900/1323c15a-ac54-11ec-9297-ed70bb26c8ff_1648538361707.jpg",
+      "rating":"4.5"
+    },
+    {
+      "id": 11,
+      "chefName": "Daniel Chen",
+      "yearsOfExperience": 5,
+      "numberOfRecipes": 35,
+      "likes": 50,
+      "imageUrl": "https://thumbs.dreamstime.com/z/excited-man-chef-cook-wearing-uniform-opening-cloche-cover-isolated-over-white-background-showing-meat-dish-134114996.jpg",
+      "rating":"4.5"
+    },
+    {
+      "id": 12,
+      "chefName": "Mia Wilson",
+      "yearsOfExperience": 3,
+      "numberOfRecipes": 30,
+      "likes": 40,
+      "imageUrl": "https://img.freepik.com/free-photo/portrait-confident-male-chef-kitchen_23-2147863584.jpg",
+      "rating":"4.5"
+    }
+  ]
