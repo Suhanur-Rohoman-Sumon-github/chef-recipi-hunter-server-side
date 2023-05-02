@@ -1,110 +1,1199 @@
 [
-    {
-      "id": 1,
-      "chefName": "John Smith",
-      "yearsOfExperience": 15,
-      "numberOfRecipes": 120,
-      "likes": 280,
-      "imageUrl": "https://thumbs.dreamstime.com/b/european-male-chef-smiles-holds-baking-tray-hot-italian-pizza-bright-kitchen-european-male-chef-smiles-holds-172989571.jpg",
-      "rating":"4.5"
-    },
-    {
-      "id": 2,
-      "chefName": "Maria Rodriguez",
-      "yearsOfExperience": 10,
-      "numberOfRecipes": 80,
-      "likes": 150,
-      "imageUrl": "https://thumbs.dreamstime.com/z/happy-african-american-chef-holding-plate-cooked-steak-vegetables-restaurant-kitchen-129307283.jpg",
-      "rating":"4.5"
-    },
-    {
-      "id": 3,
-      "chefName": "David Lee",
-      "yearsOfExperience": 8,
-      "numberOfRecipes": 65,
-      "likes": 100,
-      "imageUrl": "https://img.freepik.com/free-photo/happy-young-cook-uniform-holding-salad_171337-5343.jpg",
-      "rating":"4.5"
-    },
-    {
-      "id": 4,
-      "chefName": "Emily Chen",
-      "yearsOfExperience": 6,
-      "numberOfRecipes": 50,
-      "likes": 80,
-      "imageUrl": "https://thumbs.dreamstime.com/z/chef-ladle-mature-professional-man-isolated-over-white-background-35579888.jpg",
-      "rating":"4.5"
-    },
-    {
-      "id": 5,
-      "chefName": "Michael Johnson",
-      "yearsOfExperience": 12,
-      "numberOfRecipes": 95,
-      "likes": 200,
-      "imageUrl": "https://www.shutterstock.com/image-photo/chef-cook-adding-spices-salt-260nw-1923170684.jpg",
-      "rating":"4.5"
-    },
-    {
-      "id": 6,
-      "chefName": "Sophia Lee",
-      "yearsOfExperience": 4,
-      "numberOfRecipes": 40,
-      "likes": 60,
-      "imageUrl": "https://thumbs.dreamstime.com/z/smiling-chef-man-uniform-23326629.jpg",
-      "rating":"4.5"
-    },
-    {
-      "id": 7,
-      "chefName": "Alexandre Martin",
-      "yearsOfExperience": 20,
-      "numberOfRecipes": 150,
-      "likes": 350,
-      "imageUrl": "https://img.freepik.com/free-photo/professional-male-chef-cook-white-uniform-cook-hat-pointing-sidewith-index-finger-looking-confident-standing-white-background_141793-20622.jpg",
-      "rating":"4.5"
-    },
-    {
-      "id": 8,
-      "chefName": "Jessica Brown",
-      "yearsOfExperience": 9,
-      "numberOfRecipes": 75,
-      "likes": 120,
-      "imageUrl": "https://i.guim.co.uk/img/media/ab68e8d61c943d3ffd120620ca2ff4b54512bdd1/401_160_5359_3215/master/5359.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=790d2413c40d7452b46d41a7aba12895",
-      "rating":"4.5"
-    },
-    {
-      "id": 9,
-      "chefName": "Thomas Kim",
-      "yearsOfExperience": 7,
-      "numberOfRecipes": 55,
-      "likes": 90,
-      "imageUrl": "https://img.freepik.com/free-photo/portrait-handsome-male-chef-dressed-uniform_171337-5352.jpg",
-      "rating":"4.5"
-    },
-    {
-      "id": 10,
-      "chefName": "Elena Hernandez",
-      "yearsOfExperience": 11,
-      "numberOfRecipes": 90,
-      "likes": 180,
-      "imageUrl": "https://images.hindustantimes.com/img/2022/03/29/1600x900/1323c15a-ac54-11ec-9297-ed70bb26c8ff_1648538361707.jpg",
-      "rating":"4.5"
-    },
-    {
-      "id": 11,
-      "chefName": "Daniel Chen",
-      "yearsOfExperience": 5,
-      "numberOfRecipes": 35,
-      "likes": 50,
-      "imageUrl": "https://thumbs.dreamstime.com/z/excited-man-chef-cook-wearing-uniform-opening-cloche-cover-isolated-over-white-background-showing-meat-dish-134114996.jpg",
-      "rating":"4.5"
-    },
-    {
-      "id": 12,
-      "chefName": "Mia Wilson",
-      "yearsOfExperience": 3,
-      "numberOfRecipes": 30,
-      "likes": 40,
-      "imageUrl": "https://img.freepik.com/free-photo/portrait-confident-male-chef-kitchen_23-2147863584.jpg",
-      "rating":"4.5"
-    }
-  ]
+  {
+    "id": 1,
+    "chefName": "John Smith",
+    "yearsOfExperience": 15,
+    "numberOfRecipes": 120,
+    "likes": 280,
+    "imageUrl": "https://thumbs.dreamstime.com/b/european-male-chef-smiles-holds-baking-tray-hot-italian-pizza-bright-kitchen-european-male-chef-smiles-holds-172989571.jpg",
+    "rating": "4.5",
+    "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese.",
+    "works": [
+      {
+        "id": 1,
+        "chefName": "John Smith",
+        "yearsOfExperience": 15,
+        "numberOfRecipes": 120,
+        "likes": 280,
+        "imageUrl": "https://thumbs.dreamstime.com/b/european-male-chef-smiles-holds-baking-tray-hot-italian-pizza-bright-kitchen-european-male-chef-smiles-holds-172989571.jpg",
+        "rating": "4.5",
+        "name": "Spaghetti Carbonara",
+        "image": "https://media.istockphoto.com/id/95616888/photo/close-up-of-a-plate-of-fettuccine-carbonara.jpg?s=612x612&w=0&k=20&c=9Kbmlx_Emn84WYNMonxkBvdb78I9ZmGPXB3eE7QSlag=",
+        "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese.",
+        "ingrediant": [
+          {
+            "id":"1",
+            "in1": "1 tablespoon olive oil"
+          },
+          {
+            "id":"2",
+            "in2": "2 teaspoons butter (or sub with oil)"
+          },
+          {
+            "id":"3",
+            "in3": "8- ounces | 250 grams bacon , trimmed of fat and cut into strips (I use shortcut bacon in Australia)"
+          },
+          {
+            "id":"4",
+            "in4": "1 small onion , chopped"
+          },
+          {
+            "id":"5",
+            "in5": "6 large cloves garlic , minced or finely chopped"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Grilled Salmon",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuBIA_y-0ynwmXN7sgDo2FcQLy34ctPsrrKKnkm8Nw6Q&s",
+        "description": "A healthy and flavorful dish made with fresh salmon fillets and a herb marinade.",
+        "rating": "4.5",
+        "chefName": "John Smith",
+        "yearsOfExperience": 15,
+        "numberOfRecipes": 120,
+        "likes": 280,
+        "imageUrl": "https://thumbs.dreamstime.com/b/european-male-chef-smiles-holds-baking-tray-hot-italian-pizza-bright-kitchen-european-male-chef-smiles-holds-172989571.jpg",
+        "ingrediant": [
+          {
+            "in1": "1 ½ pounds salmon fillets"
+          },
+          {
+            "in2": "lemon pepper to taste"
+          },
+          {
+            "in3": "garlic powder to taste"
+          },
+          {
+            "in4": "salt to taste"
+          },
+          {
+            "in5": "⅓ cup soy sauce"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Beef Stir Fry",
+        "image": "https://media.istockphoto.com/id/642065070/photo/beef-and-broccoli-stir-fry.jpg?s=612x612&w=0&k=20&c=BwichHy9JJCe8u7Zdx4EDp3CzAn-bK-xBIRMl7u3UnM=",
+        "description": "A quick and easy Asian-inspired dish made with tender strips of beef, mixed vegetables, and a savory sauce.",
+        "rating": "4.5",
+        "chefName": "John Smith",
+        "yearsOfExperience": 15,
+        "numberOfRecipes": 120,
+        "likes": 280,
+        "imageUrl": "https://thumbs.dreamstime.com/b/european-male-chef-smiles-holds-baking-tray-hot-italian-pizza-bright-kitchen-european-male-chef-smiles-holds-172989571.jpg",
+        "ingrediant": [
+          {
+            "in1": "2 tablespoons vegetable oil"
+          },
+          {
+            "in2": "1 pound beef sirloin, cut into 2-inch strips"
+          },
+          {
+            "in3": "2 carrots, thinly sliced"
+          },
+          {
+            "in4": "1 green onion, chopped"
+          },
+          {
+            "in5": "1 teaspoon minced garlic"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "chefName": "Maria Rodriguez",
+    "yearsOfExperience": 10,
+    "numberOfRecipes": 80,
+    "likes": 150,
+    "imageUrl": "https://thumbs.dreamstime.com/z/happy-african-american-chef-holding-plate-cooked-steak-vegetables-restaurant-kitchen-129307283.jpg",
+    "rating": "4.5",
+    "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese.",
+    "works": [
+      {
+        "id": 1,
+        "name": "Spaghetti Carbonara",
+        "image": "https://media.istockphoto.com/id/95616888/photo/close-up-of-a-plate-of-fettuccine-carbonara.jpg?s=612x612&w=0&k=20&c=9Kbmlx_Emn84WYNMonxkBvdb78I9ZmGPXB3eE7QSlag=",
+        "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese.",
+        "rating": "4.5",
+        "chefName": "Maria Rodriguez",
+        "yearsOfExperience": 10,
+        "numberOfRecipes": 80,
+        "likes": 150,
+        "imageUrl": "https://thumbs.dreamstime.com/z/happy-african-american-chef-holding-plate-cooked-steak-vegetables-restaurant-kitchen-129307283.jpg",
+        "ingrediant": [
+          {
+            "in1": "1 tablespoon olive oil"
+          },
+          {
+            "in2": "2 teaspoons butter (or sub with oil)"
+          },
+          {
+            "in3": "8- ounces | 250 grams bacon , trimmed of fat and cut into strips (I use shortcut bacon in Australia)"
+          },
+          {
+            "in4": "1 small onion , chopped"
+          },
+          {
+            "in5": "6 large cloves garlic , minced or finely chopped"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "chefName": "Maria Rodriguez",
+        "yearsOfExperience": 10,
+        "numberOfRecipes": 80,
+        "likes": 150,
+        "imageUrl": "https://thumbs.dreamstime.com/z/happy-african-american-chef-holding-plate-cooked-steak-vegetables-restaurant-kitchen-129307283.jpg",
+        "name": "Grilled Salmon",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuBIA_y-0ynwmXN7sgDo2FcQLy34ctPsrrKKnkm8Nw6Q&s",
+        "description": "A healthy and flavorful dish made with fresh salmon fillets and a herb marinade.",
+        "rating": "4.5",
+        "ingrediant": [
+          {
+            "in1": "1 ½ pounds salmon fillets"
+          },
+          {
+            "in2": "lemon pepper to taste"
+          },
+          {
+            "in3": "garlic powder to taste"
+          },
+          {
+            "in4": "salt to taste"
+          },
+          {
+            "in5": "⅓ cup soy sauce"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "chefName": "Maria Rodriguez",
+        "yearsOfExperience": 10,
+        "numberOfRecipes": 80,
+        "likes": 150,
+        "imageUrl": "https://thumbs.dreamstime.com/z/happy-african-american-chef-holding-plate-cooked-steak-vegetables-restaurant-kitchen-129307283.jpg",
+        "name": "Beef Stir Fry",
+        "image": "https://media.istockphoto.com/id/642065070/photo/beef-and-broccoli-stir-fry.jpg?s=612x612&w=0&k=20&c=BwichHy9JJCe8u7Zdx4EDp3CzAn-bK-xBIRMl7u3UnM=",
+        "description": "A quick and easy Asian-inspired dish made with tender strips of beef, mixed vegetables, and a savory sauce.",
+        "rating": "4.5",
+        "ingrediant": [
+          {
+            "in1": "2 tablespoons vegetable oil"
+          },
+          {
+            "in2": "1 pound beef sirloin, cut into 2-inch strips"
+          },
+          {
+            "in3": "2 carrots, thinly sliced"
+          },
+          {
+            "in4": "1 green onion, chopped"
+          },
+          {
+            "in5": "1 teaspoon minced garlic"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "chefName": "David Lee",
+    "yearsOfExperience": 8,
+    "numberOfRecipes": 65,
+    "likes": 100,
+    "imageUrl": "https://img.freepik.com/free-photo/happy-young-cook-uniform-holding-salad_171337-5343.jpg",
+    "rating": "4.5",
+    "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese.",
+    "works": [
+      {
+        "id": 1,
+        "chefName": "David Lee",
+        "yearsOfExperience": 8,
+        "numberOfRecipes": 65,
+        "likes": 100,
+        "imageUrl": "https://img.freepik.com/free-photo/happy-young-cook-uniform-holding-salad_171337-5343.jpg",
+        "name": "Spaghetti Carbonara",
+        "image": "https://media.istockphoto.com/id/95616888/photo/close-up-of-a-plate-of-fettuccine-carbonara.jpg?s=612x612&w=0&k=20&c=9Kbmlx_Emn84WYNMonxkBvdb78I9ZmGPXB3eE7QSlag=",
+        "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese.",
+        "rating": "4.5"
+      },
+      {
+        "id": 2,
+        "chefName": "David Lee",
+        "yearsOfExperience": 8,
+        "numberOfRecipes": 65,
+        "likes": 100,
+        "imageUrl": "https://img.freepik.com/free-photo/happy-young-cook-uniform-holding-salad_171337-5343.jpg",
+        "name": "Grilled Salmon",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuBIA_y-0ynwmXN7sgDo2FcQLy34ctPsrrKKnkm8Nw6Q&s",
+        "description": "A healthy and flavorful dish made with fresh salmon fillets and a herb marinade.",
+        "rating": "4.5",
+        "ingrediant": [
+          {
+            "in1": "1 ½ pounds salmon fillets"
+          },
+          {
+            "in2": "lemon pepper to taste"
+          },
+          {
+            "in3": "garlic powder to taste"
+          },
+          {
+            "in4": "salt to taste"
+          },
+          {
+            "in5": "⅓ cup soy sauce"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "chefName": "David Lee",
+        "yearsOfExperience": 8,
+        "numberOfRecipes": 65,
+        "likes": 100,
+        "imageUrl": "https://img.freepik.com/free-photo/happy-young-cook-uniform-holding-salad_171337-5343.jpg",
+        "name": "Beef Stir Fry",
+        "image": "https://media.istockphoto.com/id/642065070/photo/beef-and-broccoli-stir-fry.jpg?s=612x612&w=0&k=20&c=BwichHy9JJCe8u7Zdx4EDp3CzAn-bK-xBIRMl7u3UnM=",
+        "description": "A quick and easy Asian-inspired dish made with tender strips of beef, mixed vegetables, and a savory sauce.",
+        "rating": "4.5",
+        "ingrediant": [
+          {
+            "in1": "2 tablespoons vegetable oil"
+          },
+          {
+            "in2": "1 pound beef sirloin, cut into 2-inch strips"
+          },
+          {
+            "in3": "2 carrots, thinly sliced"
+          },
+          {
+            "in4": "1 green onion, chopped"
+          },
+          {
+            "in5": "1 teaspoon minced garlic"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "chefName": "Emily Chen",
+    "yearsOfExperience": 6,
+    "numberOfRecipes": 50,
+    "likes": 80,
+    "imageUrl": "https://thumbs.dreamstime.com/z/chef-ladle-mature-professional-man-isolated-over-white-background-35579888.jpg",
+    "rating": "4.5",
+    "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese.",
+    "works": [
+      {
+        "id": 1,
+        "chefName": "Emily Chen",
+        "yearsOfExperience": 6,
+        "numberOfRecipes": 50,
+        "likes": 80,
+        "imageUrl": "https://thumbs.dreamstime.com/z/chef-ladle-mature-professional-man-isolated-over-white-background-35579888.jpg",
+        "name": "Spaghetti Carbonara",
+        "image": "https://media.istockphoto.com/id/95616888/photo/close-up-of-a-plate-of-fettuccine-carbonara.jpg?s=612x612&w=0&k=20&c=9Kbmlx_Emn84WYNMonxkBvdb78I9ZmGPXB3eE7QSlag=",
+        "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese.",
+        "rating": "4.5",
+        "ingrediant": [
+          {
+            "in1": "1 tablespoon olive oil"
+          },
+          {
+            "in2": "2 teaspoons butter (or sub with oil)"
+          },
+          {
+            "in3": "8- ounces | 250 grams bacon , trimmed of fat and cut into strips (I use shortcut bacon in Australia)"
+          },
+          {
+            "in4": "1 small onion , chopped"
+          },
+          {
+            "in5": "6 large cloves garlic , minced or finely chopped"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "chefName": "Emily Chen",
+        "yearsOfExperience": 6,
+        "numberOfRecipes": 50,
+        "likes": 80,
+        "imageUrl": "https://thumbs.dreamstime.com/z/chef-ladle-mature-professional-man-isolated-over-white-background-35579888.jpg",
+        "name": "Grilled Salmon",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuBIA_y-0ynwmXN7sgDo2FcQLy34ctPsrrKKnkm8Nw6Q&s",
+        "description": "A healthy and flavorful dish made with fresh salmon fillets and a herb marinade.",
+        "rating": "4.5",
+        "ingrediant": [
+          {
+            "in1": "1 ½ pounds salmon fillets"
+          },
+          {
+            "in2": "lemon pepper to taste"
+          },
+          {
+            "in3": "garlic powder to taste"
+          },
+          {
+            "in4": "salt to taste"
+          },
+          {
+            "in5": "⅓ cup soy sauce"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "chefName": "Emily Chen",
+        "yearsOfExperience": 6,
+        "numberOfRecipes": 50,
+        "likes": 80,
+        "imageUrl": "https://thumbs.dreamstime.com/z/chef-ladle-mature-professional-man-isolated-over-white-background-35579888.jpg",
+        "name": "Beef Stir Fry",
+        "image": "https://media.istockphoto.com/id/642065070/photo/beef-and-broccoli-stir-fry.jpg?s=612x612&w=0&k=20&c=BwichHy9JJCe8u7Zdx4EDp3CzAn-bK-xBIRMl7u3UnM=",
+        "description": "A quick and easy Asian-inspired dish made with tender strips of beef, mixed vegetables, and a savory sauce.",
+        "rating": "4.5",
+        "ingrediant": [
+          {
+            "in1": "2 tablespoons vegetable oil"
+          },
+          {
+            "in2": "1 pound beef sirloin, cut into 2-inch strips"
+          },
+          {
+            "in3": "2 carrots, thinly sliced"
+          },
+          {
+            "in4": "1 green onion, chopped"
+          },
+          {
+            "in5": "1 teaspoon minced garlic"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "chefName": "Michael Johnson",
+    "yearsOfExperience": 12,
+    "numberOfRecipes": 95,
+    "likes": 200,
+    "imageUrl": "https://www.shutterstock.com/image-photo/chef-cook-adding-spices-salt-260nw-1923170684.jpg",
+    "rating": "4.5",
+    "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese.",
+    "works": [
+      {
+        "id": 1,
+        "chefName": "Michael Johnson",
+        "yearsOfExperience": 12,
+        "numberOfRecipes": 95,
+        "likes": 200,
+        "imageUrl": "https://www.shutterstock.com/image-photo/chef-cook-adding-spices-salt-260nw-1923170684.jpg",
+        "name": "Spaghetti Carbonara",
+        "image": "https://media.istockphoto.com/id/95616888/photo/close-up-of-a-plate-of-fettuccine-carbonara.jpg?s=612x612&w=0&k=20&c=9Kbmlx_Emn84WYNMonxkBvdb78I9ZmGPXB3eE7QSlag=",
+        "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese.",
+        "rating": "4.5",
+        "ingrediant": [
+          {
+            "in1": "1 tablespoon olive oil"
+          },
+          {
+            "in2": "2 teaspoons butter (or sub with oil)"
+          },
+          {
+            "in3": "8- ounces | 250 grams bacon , trimmed of fat and cut into strips (I use shortcut bacon in Australia)"
+          },
+          {
+            "in4": "1 small onion , chopped"
+          },
+          {
+            "in5": "6 large cloves garlic , minced or finely chopped"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "chefName": "Michael Johnson",
+        "yearsOfExperience": 12,
+        "numberOfRecipes": 95,
+        "likes": 200,
+        "imageUrl": "https://www.shutterstock.com/image-photo/chef-cook-adding-spices-salt-260nw-1923170684.jpg",
+        "name": "Grilled Salmon",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuBIA_y-0ynwmXN7sgDo2FcQLy34ctPsrrKKnkm8Nw6Q&s",
+        "description": "A healthy and flavorful dish made with fresh salmon fillets and a herb marinade.",
+        "rating": "4.5",
+        "ingrediant": [
+          {
+            "in1": "1 ½ pounds salmon fillets"
+          },
+          {
+            "in2": "lemon pepper to taste"
+          },
+          {
+            "in3": "garlic powder to taste"
+          },
+          {
+            "in4": "salt to taste"
+          },
+          {
+            "in5": "⅓ cup soy sauce"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "chefName": "Michael Johnson",
+        "yearsOfExperience": 12,
+        "numberOfRecipes": 95,
+        "likes": 200,
+        "imageUrl": "https://www.shutterstock.com/image-photo/chef-cook-adding-spices-salt-260nw-1923170684.jpg",
+        "name": "Beef Stir Fry",
+        "image": "https://media.istockphoto.com/id/642065070/photo/beef-and-broccoli-stir-fry.jpg?s=612x612&w=0&k=20&c=BwichHy9JJCe8u7Zdx4EDp3CzAn-bK-xBIRMl7u3UnM=",
+        "description": "A quick and easy Asian-inspired dish made with tender strips of beef, mixed vegetables, and a savory sauce.",
+        "rating": "4.5",
+        "ingrediant": [
+          {
+            "in1": "2 tablespoons vegetable oil"
+          },
+          {
+            "in2": "1 pound beef sirloin, cut into 2-inch strips"
+          },
+          {
+            "in3": "2 carrots, thinly sliced"
+          },
+          {
+            "in4": "1 green onion, chopped"
+          },
+          {
+            "in5": "1 teaspoon minced garlic"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "chefName": "Sophia Lee",
+    "yearsOfExperience": 4,
+    "numberOfRecipes": 40,
+    "likes": 60,
+    "imageUrl": "https://thumbs.dreamstime.com/z/smiling-chef-man-uniform-23326629.jpg",
+    "rating": "4.5",
+    "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese.",
+    "works": [
+      {
+        "id": 1,
+        "chefName": "Sophia Lee",
+        "yearsOfExperience": 4,
+        "numberOfRecipes": 40,
+        "likes": 60,
+        "imageUrl": "https://thumbs.dreamstime.com/z/smiling-chef-man-uniform-23326629.jpg",
+        "name": "Spaghetti Carbonara",
+        "image": "https://media.istockphoto.com/id/95616888/photo/close-up-of-a-plate-of-fettuccine-carbonara.jpg?s=612x612&w=0&k=20&c=9Kbmlx_Emn84WYNMonxkBvdb78I9ZmGPXB3eE7QSlag=",
+        "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese.",
+        "rating": "4.5",
+        "howcook": "Need to use up some of your leftover vegetables and other pantry staple ingredients? Look no further than a classic beef stir-fry. This beef and broccoli stir-fry comes together in just 25 minutes and only requires ingredients that you probably already have. And if you don't? You can just skip them! This dish is packed with veggies, beef, and saucy flavors for a weeknight dinner warrior that checks all the boxes. Served with rice or lo mein noodles, this will be the best beef stir-fry you've ever made.",
+        "ingrediant": [
+          {
+            "in1": "1 tablespoon olive oil"
+          },
+          {
+            "in2": "2 teaspoons butter (or sub with oil)"
+          },
+          {
+            "in3": "8- ounces | 250 grams bacon , trimmed of fat and cut into strips (I use shortcut bacon in Australia)"
+          },
+          {
+            "in4": "1 small onion , chopped"
+          },
+          {
+            "in5": "6 large cloves garlic , minced or finely chopped"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "chefName": "Sophia Lee",
+        "yearsOfExperience": 4,
+        "numberOfRecipes": 40,
+        "likes": 60,
+        "imageUrl": "https://thumbs.dreamstime.com/z/smiling-chef-man-uniform-23326629.jpg",
+        "name": "Grilled Salmon",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuBIA_y-0ynwmXN7sgDo2FcQLy34ctPsrrKKnkm8Nw6Q&s",
+        "description": "A healthy and flavorful dish made with fresh salmon fillets and a herb marinade.",
+        "rating": "4.5",
+        "howcook": "Need to use up some of your leftover vegetables and other pantry staple ingredients? Look no further than a classic beef stir-fry. This beef and broccoli stir-fry comes together in just 25 minutes and only requires ingredients that you probably already have. And if you don't? You can just skip them! This dish is packed with veggies, beef, and saucy flavors for a weeknight dinner warrior that checks all the boxes. Served with rice or lo mein noodles, this will be the best beef stir-fry you've ever made.",
+        "ingrediant": [
+          {
+            "in1": "1 ½ pounds salmon fillets"
+          },
+          {
+            "in2": "lemon pepper to taste"
+          },
+          {
+            "in3": "garlic powder to taste"
+          },
+          {
+            "in4": "salt to taste"
+          },
+          {
+            "in5": "⅓ cup soy sauce"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "chefName": "Sophia Lee",
+        "yearsOfExperience": 4,
+        "numberOfRecipes": 40,
+        "likes": 60,
+        "imageUrl": "https://thumbs.dreamstime.com/z/smiling-chef-man-uniform-23326629.jpg",
+        "name": "Beef Stir Fry",
+        "image": "https://media.istockphoto.com/id/642065070/photo/beef-and-broccoli-stir-fry.jpg?s=612x612&w=0&k=20&c=BwichHy9JJCe8u7Zdx4EDp3CzAn-bK-xBIRMl7u3UnM=",
+        "description": "A quick and easy Asian-inspired dish made with tender strips of beef, mixed vegetables, and a savory sauce.",
+        "rating": "4.5",
+        "howcook": "Need to use up some of your leftover vegetables and other pantry staple ingredients? Look no further than a classic beef stir-fry. This beef and broccoli stir-fry comes together in just 25 minutes and only requires ingredients that you probably already have. And if you don't? You can just skip them! This dish is packed with veggies, beef, and saucy flavors for a weeknight dinner warrior that checks all the boxes. Served with rice or lo mein noodles, this will be the best beef stir-fry you've ever made.",
+        "ingrediant": [
+          {
+            "in1": "2 tablespoons vegetable oil"
+          },
+          {
+            "in2": "1 pound beef sirloin, cut into 2-inch strips"
+          },
+          {
+            "in3": "2 carrots, thinly sliced"
+          },
+          {
+            "in4": "1 green onion, chopped"
+          },
+          {
+            "in5": "1 teaspoon minced garlic"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "chefName": "Alexandre Martin",
+    "yearsOfExperience": 20,
+    "numberOfRecipes": 150,
+    "likes": 350,
+    "imageUrl": "https://img.freepik.com/free-photo/professional-male-chef-cook-white-uniform-cook-hat-pointing-sidewith-index-finger-looking-confident-standing-white-background_141793-20622.jpg",
+    "rating": "4.5",
+    "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese.",
+    "works": [
+      {
+        "id": 1,
+        "chefName": "Alexandre Martin",
+        "yearsOfExperience": 20,
+        "numberOfRecipes": 150,
+        "likes": 350,
+        "imageUrl": "https://img.freepik.com/free-photo/professional-male-chef-cook-white-uniform-cook-hat-pointing-sidewith-index-finger-looking-confident-standing-white-background_141793-20622.jpg",
+        "name": "Spaghetti Carbonara",
+        "image": "https://media.istockphoto.com/id/95616888/photo/close-up-of-a-plate-of-fettuccine-carbonara.jpg?s=612x612&w=0&k=20&c=9Kbmlx_Emn84WYNMonxkBvdb78I9ZmGPXB3eE7QSlag=",
+        "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese.",
+        "rating": "4.5",
+        "howcook": "Need to use up some of your leftover vegetables and other pantry staple ingredients? Look no further than a classic beef stir-fry. This beef and broccoli stir-fry comes together in just 25 minutes and only requires ingredients that you probably already have. And if you don't? You can just skip them! This dish is packed with veggies, beef, and saucy flavors for a weeknight dinner warrior that checks all the boxes. Served with rice or lo mein noodles, this will be the best beef stir-fry you've ever made.",
+        "ingrediant": [
+          {
+            "in1": "1 tablespoon olive oil"
+          },
+          {
+            "in2": "2 teaspoons butter (or sub with oil)"
+          },
+          {
+            "in3": "8- ounces | 250 grams bacon , trimmed of fat and cut into strips (I use shortcut bacon in Australia)"
+          },
+          {
+            "in4": "1 small onion , chopped"
+          },
+          {
+            "in5": "6 large cloves garlic , minced or finely chopped"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "chefName": "Alexandre Martin",
+        "yearsOfExperience": 20,
+        "numberOfRecipes": 150,
+        "likes": 350,
+        "imageUrl": "https://img.freepik.com/free-photo/professional-male-chef-cook-white-uniform-cook-hat-pointing-sidewith-index-finger-looking-confident-standing-white-background_141793-20622.jpg",
+        "name": "Grilled Salmon",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuBIA_y-0ynwmXN7sgDo2FcQLy34ctPsrrKKnkm8Nw6Q&s",
+        "description": "A healthy and flavorful dish made with fresh salmon fillets and a herb marinade.",
+        "rating": "4.5",
+        "howcook": "Need to use up some of your leftover vegetables and other pantry staple ingredients? Look no further than a classic beef stir-fry. This beef and broccoli stir-fry comes together in just 25 minutes and only requires ingredients that you probably already have. And if you don't? You can just skip them! This dish is packed with veggies, beef, and saucy flavors for a weeknight dinner warrior that checks all the boxes. Served with rice or lo mein noodles, this will be the best beef stir-fry you've ever made.",
+        "ingrediant": [
+          {
+            "in1": "1 ½ pounds salmon fillets"
+          },
+          {
+            "in2": "lemon pepper to taste"
+          },
+          {
+            "in3": "garlic powder to taste"
+          },
+          {
+            "in4": "salt to taste"
+          },
+          {
+            "in5": "⅓ cup soy sauce"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "chefName": "Alexandre Martin",
+        "yearsOfExperience": 20,
+        "numberOfRecipes": 150,
+        "likes": 350,
+        "imageUrl": "https://img.freepik.com/free-photo/professional-male-chef-cook-white-uniform-cook-hat-pointing-sidewith-index-finger-looking-confident-standing-white-background_141793-20622.jpg",
+        "name": "Beef Stir Fry",
+        "image": "https://media.istockphoto.com/id/642065070/photo/beef-and-broccoli-stir-fry.jpg?s=612x612&w=0&k=20&c=BwichHy9JJCe8u7Zdx4EDp3CzAn-bK-xBIRMl7u3UnM=",
+        "description": "A quick and easy Asian-inspired dish made with tender strips of beef, mixed vegetables, and a savory sauce.",
+        "rating": "4.5",
+        "howcook": "Need to use up some of your leftover vegetables and other pantry staple ingredients? Look no further than a classic beef stir-fry. This beef and broccoli stir-fry comes together in just 25 minutes and only requires ingredients that you probably already have. And if you don't? You can just skip them! This dish is packed with veggies, beef, and saucy flavors for a weeknight dinner warrior that checks all the boxes. Served with rice or lo mein noodles, this will be the best beef stir-fry you've ever made.",
+        "ingrediant": [
+          {
+            "in1": "2 tablespoons vegetable oil"
+          },
+          {
+            "in2": "1 pound beef sirloin, cut into 2-inch strips"
+          },
+          {
+            "in3": "2 carrots, thinly sliced"
+          },
+          {
+            "in4": "1 green onion, chopped"
+          },
+          {
+            "in5": "1 teaspoon minced garlic"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "chefName": "Jessica Brown",
+    "yearsOfExperience": 9,
+    "numberOfRecipes": 75,
+    "likes": 120,
+    "imageUrl": "https://i.guim.co.uk/img/media/ab68e8d61c943d3ffd120620ca2ff4b54512bdd1/401_160_5359_3215/master/5359.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=790d2413c40d7452b46d41a7aba12895",
+    "rating": "4.5",
+    "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese.",
+    "works": [
+      {
+        "id": 1,
+        "chefName": "Jessica Brown",
+        "yearsOfExperience": 9,
+        "numberOfRecipes": 75,
+        "likes": 120,
+        "imageUrl": "https://i.guim.co.uk/img/media/ab68e8d61c943d3ffd120620ca2ff4b54512bdd1/401_160_5359_3215/master/5359.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=790d2413c40d7452b46d41a7aba12895",
+        "name": "Spaghetti Carbonara",
+        "image": "https://media.istockphoto.com/id/95616888/photo/close-up-of-a-plate-of-fettuccine-carbonara.jpg?s=612x612&w=0&k=20&c=9Kbmlx_Emn84WYNMonxkBvdb78I9ZmGPXB3eE7QSlag=",
+        "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese.",
+        "rating": "4.5",
+        "howcook": "Need to use up some of your leftover vegetables and other pantry staple ingredients? Look no further than a classic beef stir-fry. This beef and broccoli stir-fry comes together in just 25 minutes and only requires ingredients that you probably already have. And if you don't? You can just skip them! This dish is packed with veggies, beef, and saucy flavors for a weeknight dinner warrior that checks all the boxes. Served with rice or lo mein noodles, this will be the best beef stir-fry you've ever made.",
+        "ingrediant": [
+          {
+            "in1": "1 tablespoon olive oil"
+          },
+          {
+            "in2": "2 teaspoons butter (or sub with oil)"
+          },
+          {
+            "in3": "8- ounces | 250 grams bacon , trimmed of fat and cut into strips (I use shortcut bacon in Australia)"
+          },
+          {
+            "in4": "1 small onion , chopped"
+          },
+          {
+            "in5": "6 large cloves garlic , minced or finely chopped"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "chefName": "Jessica Brown",
+        "yearsOfExperience": 9,
+        "numberOfRecipes": 75,
+        "likes": 120,
+        "imageUrl": "https://i.guim.co.uk/img/media/ab68e8d61c943d3ffd120620ca2ff4b54512bdd1/401_160_5359_3215/master/5359.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=790d2413c40d7452b46d41a7aba12895",
+        "name": "Grilled Salmon",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuBIA_y-0ynwmXN7sgDo2FcQLy34ctPsrrKKnkm8Nw6Q&s",
+        "description": "A healthy and flavorful dish made with fresh salmon fillets and a herb marinade.",
+        "rating": "4.5",
+        "howcook": "Need to use up some of your leftover vegetables and other pantry staple ingredients? Look no further than a classic beef stir-fry. This beef and broccoli stir-fry comes together in just 25 minutes and only requires ingredients that you probably already have. And if you don't? You can just skip them! This dish is packed with veggies, beef, and saucy flavors for a weeknight dinner warrior that checks all the boxes. Served with rice or lo mein noodles, this will be the best beef stir-fry you've ever made.",
+        "ingrediant": [
+          {
+            "in1": "1 ½ pounds salmon fillets"
+          },
+          {
+            "in2": "lemon pepper to taste"
+          },
+          {
+            "in3": "garlic powder to taste"
+          },
+          {
+            "in4": "salt to taste"
+          },
+          {
+            "in5": "⅓ cup soy sauce"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "chefName": "Jessica Brown",
+        "yearsOfExperience": 9,
+        "numberOfRecipes": 75,
+        "likes": 120,
+        "imageUrl": "https://i.guim.co.uk/img/media/ab68e8d61c943d3ffd120620ca2ff4b54512bdd1/401_160_5359_3215/master/5359.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=790d2413c40d7452b46d41a7aba12895",
+        "name": "Beef Stir Fry",
+        "image": "https://media.istockphoto.com/id/642065070/photo/beef-and-broccoli-stir-fry.jpg?s=612x612&w=0&k=20&c=BwichHy9JJCe8u7Zdx4EDp3CzAn-bK-xBIRMl7u3UnM=",
+        "description": "A quick and easy Asian-inspired dish made with tender strips of beef, mixed vegetables, and a savory sauce.",
+        "rating": "4.5",
+        "howcook": "Need to use up some of your leftover vegetables and other pantry staple ingredients? Look no further than a classic beef stir-fry. This beef and broccoli stir-fry comes together in just 25 minutes and only requires ingredients that you probably already have. And if you don't? You can just skip them! This dish is packed with veggies, beef, and saucy flavors for a weeknight dinner warrior that checks all the boxes. Served with rice or lo mein noodles, this will be the best beef stir-fry you've ever made.",
+        "ingrediant": [
+          {
+            "in1": "1 tablespoon olive oil"
+          },
+          {
+            "in2": "2 teaspoons butter (or sub with oil)"
+          },
+          {
+            "in3": "8- ounces | 250 grams bacon , trimmed of fat and cut into strips (I use shortcut bacon in Australia)"
+          },
+          {
+            "in4": "1 small onion , chopped"
+          },
+          {
+            "in5": "6 large cloves garlic , minced or finely chopped"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "chefName": "Thomas Kim",
+    "yearsOfExperience": 7,
+    "numberOfRecipes": 55,
+    "likes": 90,
+    "imageUrl": "https://img.freepik.com/free-photo/portrait-handsome-male-chef-dressed-uniform_171337-5352.jpg",
+    "rating": "4.5",
+    "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese.",
+    "works": [
+      {
+        "id": 1,
+        "chefName": "Thomas Kim",
+        "yearsOfExperience": 7,
+        "numberOfRecipes": 55,
+        "likes": 90,
+        "imageUrl": "https://img.freepik.com/free-photo/portrait-handsome-male-chef-dressed-uniform_171337-5352.jpg",
+        "name": "Spaghetti Carbonara",
+        "image": "https://media.istockphoto.com/id/95616888/photo/close-up-of-a-plate-of-fettuccine-carbonara.jpg?s=612x612&w=0&k=20&c=9Kbmlx_Emn84WYNMonxkBvdb78I9ZmGPXB3eE7QSlag=",
+        "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese.",
+        "rating": "4.5",
+        "howcook": "Need to use up some of your leftover vegetables and other pantry staple ingredients? Look no further than a classic beef stir-fry. This beef and broccoli stir-fry comes together in just 25 minutes and only requires ingredients that you probably already have. And if you don't? You can just skip them! This dish is packed with veggies, beef, and saucy flavors for a weeknight dinner warrior that checks all the boxes. Served with rice or lo mein noodles, this will be the best beef stir-fry you've ever made.",
+        "ingrediant": [
+          {
+            "in1": "1 tablespoon olive oil"
+          },
+          {
+            "in2": "2 teaspoons butter (or sub with oil)"
+          },
+          {
+            "in3": "8- ounces | 250 grams bacon , trimmed of fat and cut into strips (I use shortcut bacon in Australia)"
+          },
+          {
+            "in4": "1 small onion , chopped"
+          },
+          {
+            "in5": "6 large cloves garlic , minced or finely chopped"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "chefName": "Thomas Kim",
+        "yearsOfExperience": 7,
+        "numberOfRecipes": 55,
+        "likes": 90,
+        "imageUrl": "https://img.freepik.com/free-photo/portrait-handsome-male-chef-dressed-uniform_171337-5352.jpg",
+        "name": "Grilled Salmon",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuBIA_y-0ynwmXN7sgDo2FcQLy34ctPsrrKKnkm8Nw6Q&s",
+        "description": "A healthy and flavorful dish made with fresh salmon fillets and a herb marinade.",
+        "rating": "4.5",
+        "howcook": "Need to use up some of your leftover vegetables and other pantry staple ingredients? Look no further than a classic beef stir-fry. This beef and broccoli stir-fry comes together in just 25 minutes and only requires ingredients that you probably already have. And if you don't? You can just skip them! This dish is packed with veggies, beef, and saucy flavors for a weeknight dinner warrior that checks all the boxes. Served with rice or lo mein noodles, this will be the best beef stir-fry you've ever made.",
+        "ingrediant": [
+          {
+            "in1": "1 ½ pounds salmon fillets"
+          },
+          {
+            "in2": "lemon pepper to taste"
+          },
+          {
+            "in3": "garlic powder to taste"
+          },
+          {
+            "in4": "salt to taste"
+          },
+          {
+            "in5": "⅓ cup soy sauce"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "chefName": "Thomas Kim",
+        "yearsOfExperience": 7,
+        "numberOfRecipes": 55,
+        "likes": 90,
+        "imageUrl": "https://img.freepik.com/free-photo/portrait-handsome-male-chef-dressed-uniform_171337-5352.jpg",
+        "name": "Beef Stir Fry",
+        "image": "https://media.istockphoto.com/id/642065070/photo/beef-and-broccoli-stir-fry.jpg?s=612x612&w=0&k=20&c=BwichHy9JJCe8u7Zdx4EDp3CzAn-bK-xBIRMl7u3UnM=",
+        "description": "A quick and easy Asian-inspired dish made with tender strips of beef, mixed vegetables, and a savory sauce.",
+        "rating": "4.5",
+        "howcook": "Need to use up some of your leftover vegetables and other pantry staple ingredients? Look no further than a classic beef stir-fry. This beef and broccoli stir-fry comes together in just 25 minutes and only requires ingredients that you probably already have. And if you don't? You can just skip them! This dish is packed with veggies, beef, and saucy flavors for a weeknight dinner warrior that checks all the boxes. Served with rice or lo mein noodles, this will be the best beef stir-fry you've ever made.",
+        "ingrediant": [
+          {
+            "in1": "2 tablespoons vegetable oil"
+          },
+          {
+            "in2": "1 pound beef sirloin, cut into 2-inch strips"
+          },
+          {
+            "in3": "2 carrots, thinly sliced"
+          },
+          {
+            "in4": "1 green onion, chopped"
+          },
+          {
+            "in5": "1 teaspoon minced garlic"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "chefName": "Elena Hernandez",
+    "yearsOfExperience": 11,
+    "numberOfRecipes": 90,
+    "likes": 180,
+    "imageUrl": "https://images.hindustantimes.com/img/2022/03/29/1600x900/1323c15a-ac54-11ec-9297-ed70bb26c8ff_1648538361707.jpg",
+    "rating": "4.5",
+    "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese.",
+    "works": [
+      {
+        "id": 1,
+        "chefName": "Elena Hernandez",
+        "yearsOfExperience": 11,
+        "numberOfRecipes": 90,
+        "likes": 180,
+        "imageUrl": "https://images.hindustantimes.com/img/2022/03/29/1600x900/1323c15a-ac54-11ec-9297-ed70bb26c8ff_1648538361707.jpg",
+        "name": "Spaghetti Carbonara",
+        "image": "https://media.istockphoto.com/id/95616888/photo/close-up-of-a-plate-of-fettuccine-carbonara.jpg?s=612x612&w=0&k=20&c=9Kbmlx_Emn84WYNMonxkBvdb78I9ZmGPXB3eE7QSlag=",
+        "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese.",
+        "rating": "4.5",
+        "howcook": "Need to use up some of your leftover vegetables and other pantry staple ingredients? Look no further than a classic beef stir-fry. This beef and broccoli stir-fry comes together in just 25 minutes and only requires ingredients that you probably already have. And if you don't? You can just skip them! This dish is packed with veggies, beef, and saucy flavors for a weeknight dinner warrior that checks all the boxes. Served with rice or lo mein noodles, this will be the best beef stir-fry you've ever made.",
+        "ingrediant": [
+          {
+            "in1": "1 tablespoon olive oil"
+          },
+          {
+            "in2": "2 teaspoons butter (or sub with oil)"
+          },
+          {
+            "in3": "8- ounces | 250 grams bacon , trimmed of fat and cut into strips (I use shortcut bacon in Australia)"
+          },
+          {
+            "in4": "1 small onion , chopped"
+          },
+          {
+            "in5": "6 large cloves garlic , minced or finely chopped"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "chefName": "Elena Hernandez",
+        "yearsOfExperience": 11,
+        "numberOfRecipes": 90,
+        "likes": 180,
+        "imageUrl": "https://images.hindustantimes.com/img/2022/03/29/1600x900/1323c15a-ac54-11ec-9297-ed70bb26c8ff_1648538361707.jpg",
+        "name": "Grilled Salmon",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuBIA_y-0ynwmXN7sgDo2FcQLy34ctPsrrKKnkm8Nw6Q&s",
+        "description": "A healthy and flavorful dish made with fresh salmon fillets and a herb marinade.",
+        "rating": "4.5",
+        "howcook": "Need to use up some of your leftover vegetables and other pantry staple ingredients? Look no further than a classic beef stir-fry. This beef and broccoli stir-fry comes together in just 25 minutes and only requires ingredients that you probably already have. And if you don't? You can just skip them! This dish is packed with veggies, beef, and saucy flavors for a weeknight dinner warrior that checks all the boxes. Served with rice or lo mein noodles, this will be the best beef stir-fry you've ever made.",
+        "ingrediant": [
+          {
+            "in1": "1 ½ pounds salmon fillets"
+          },
+          {
+            "in2": "lemon pepper to taste"
+          },
+          {
+            "in3": "garlic powder to taste"
+          },
+          {
+            "in4": "salt to taste"
+          },
+          {
+            "in5": "⅓ cup soy sauce"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "chefName": "Elena Hernandez",
+        "yearsOfExperience": 11,
+        "numberOfRecipes": 90,
+        "likes": 180,
+        "imageUrl": "https://images.hindustantimes.com/img/2022/03/29/1600x900/1323c15a-ac54-11ec-9297-ed70bb26c8ff_1648538361707.jpg",
+        "name": "Beef Stir Fry",
+        "image": "https://media.istockphoto.com/id/642065070/photo/beef-and-broccoli-stir-fry.jpg?s=612x612&w=0&k=20&c=BwichHy9JJCe8u7Zdx4EDp3CzAn-bK-xBIRMl7u3UnM=",
+        "description": "A quick and easy Asian-inspired dish made with tender strips of beef, mixed vegetables, and a savory sauce.",
+        "rating": "4.5",
+        "howcook": "Need to use up some of your leftover vegetables and other pantry staple ingredients? Look no further than a classic beef stir-fry. This beef and broccoli stir-fry comes together in just 25 minutes and only requires ingredients that you probably already have. And if you don't? You can just skip them! This dish is packed with veggies, beef, and saucy flavors for a weeknight dinner warrior that checks all the boxes. Served with rice or lo mein noodles, this will be the best beef stir-fry you've ever made.",
+        "ingrediant": [
+          {
+            "in1": "2 tablespoons vegetable oil"
+          },
+          {
+            "in2": "1 pound beef sirloin, cut into 2-inch strips"
+          },
+          {
+            "in3": "2 carrots, thinly sliced"
+          },
+          {
+            "in4": "1 green onion, chopped"
+          },
+          {
+            "in5": "1 teaspoon minced garlic"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "chefName": "Daniel Chen",
+    "yearsOfExperience": 5,
+    "numberOfRecipes": 35,
+    "likes": 50,
+    "imageUrl": "https://thumbs.dreamstime.com/z/excited-man-chef-cook-wearing-uniform-opening-cloche-cover-isolated-over-white-background-showing-meat-dish-134114996.jpg",
+    "rating": "4.5",
+    "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese.",
+    "works": [
+      {
+        "id": 1,
+        "chefName": "Daniel Chen",
+        "yearsOfExperience": 5,
+        "numberOfRecipes": 35,
+        "likes": 50,
+        "imageUrl": "https://thumbs.dreamstime.com/z/excited-man-chef-cook-wearing-uniform-opening-cloche-cover-isolated-over-white-background-showing-meat-dish-134114996.jpg",
+        "name": "Spaghetti Carbonara",
+        "image": "https://media.istockphoto.com/id/95616888/photo/close-up-of-a-plate-of-fettuccine-carbonara.jpg?s=612x612&w=0&k=20&c=9Kbmlx_Emn84WYNMonxkBvdb78I9ZmGPXB3eE7QSlag=",
+        "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese.",
+        "rating": "4.5",
+        "howcook": "Need to use up some of your leftover vegetables and other pantry staple ingredients? Look no further than a classic beef stir-fry. This beef and broccoli stir-fry comes together in just 25 minutes and only requires ingredients that you probably already have. And if you don't? You can just skip them! This dish is packed with veggies, beef, and saucy flavors for a weeknight dinner warrior that checks all the boxes. Served with rice or lo mein noodles, this will be the best beef stir-fry you've ever made.",
+        "ingrediant": [
+          {
+            "in1": "1 tablespoon olive oil"
+          },
+          {
+            "in2": "2 teaspoons butter (or sub with oil)"
+          },
+          {
+            "in3": "8- ounces | 250 grams bacon , trimmed of fat and cut into strips (I use shortcut bacon in Australia)"
+          },
+          {
+            "in4": "1 small onion , chopped"
+          },
+          {
+            "in5": "6 large cloves garlic , minced or finely chopped"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "chefName": "Daniel Chen",
+        "yearsOfExperience": 5,
+        "numberOfRecipes": 35,
+        "likes": 50,
+        "imageUrl": "https://thumbs.dreamstime.com/z/excited-man-chef-cook-wearing-uniform-opening-cloche-cover-isolated-over-white-background-showing-meat-dish-134114996.jpg",
+        "name": "Grilled Salmon",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuBIA_y-0ynwmXN7sgDo2FcQLy34ctPsrrKKnkm8Nw6Q&s",
+        "description": "A healthy and flavorful dish made with fresh salmon fillets and a herb marinade.",
+        "rating": "4.5",
+        "howcook": "Need to use up some of your leftover vegetables and other pantry staple ingredients? Look no further than a classic beef stir-fry. This beef and broccoli stir-fry comes together in just 25 minutes and only requires ingredients that you probably already have. And if you don't? You can just skip them! This dish is packed with veggies, beef, and saucy flavors for a weeknight dinner warrior that checks all the boxes. Served with rice or lo mein noodles, this will be the best beef stir-fry you've ever made.",
+        "ingrediant": [
+          {
+            "in1": "1 ½ pounds salmon fillets"
+          },
+          {
+            "in2": "lemon pepper to taste"
+          },
+          {
+            "in3": "garlic powder to taste"
+          },
+          {
+            "in4": "salt to taste"
+          },
+          {
+            "in5": "⅓ cup soy sauce"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "chefName": "Daniel Chen",
+        "yearsOfExperience": 5,
+        "numberOfRecipes": 35,
+        "likes": 50,
+        "imageUrl": "https://thumbs.dreamstime.com/z/excited-man-chef-cook-wearing-uniform-opening-cloche-cover-isolated-over-white-background-showing-meat-dish-134114996.jpg",
+        "name": "Beef Stir Fry",
+        "image": "https://media.istockphoto.com/id/642065070/photo/beef-and-broccoli-stir-fry.jpg?s=612x612&w=0&k=20&c=BwichHy9JJCe8u7Zdx4EDp3CzAn-bK-xBIRMl7u3UnM=",
+        "description": "A quick and easy Asian-inspired dish made with tender strips of beef, mixed vegetables, and a savory sauce.",
+        "rating": "4.5",
+        "howcook": "Need to use up some of your leftover vegetables and other pantry staple ingredients? Look no further than a classic beef stir-fry. This beef and broccoli stir-fry comes together in just 25 minutes and only requires ingredients that you probably already have. And if you don't? You can just skip them! This dish is packed with veggies, beef, and saucy flavors for a weeknight dinner warrior that checks all the boxes. Served with rice or lo mein noodles, this will be the best beef stir-fry you've ever made.",
+        "ingrediant": [
+          {
+            "in1": "2 tablespoons vegetable oil"
+          },
+          {
+            "in2": "1 pound beef sirloin, cut into 2-inch strips"
+          },
+          {
+            "in3": "2 carrots, thinly sliced"
+          },
+          {
+            "in4": "1 green onion, chopped"
+          },
+          {
+            "in5": "1 teaspoon minced garlic"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "chefName": "Mia Wilson",
+    "yearsOfExperience": 3,
+    "numberOfRecipes": 30,
+    "likes": 40,
+    "imageUrl": "https://img.freepik.com/free-photo/portrait-confident-male-chef-kitchen_23-2147863584.jpg",
+    "rating": "4.5",
+    "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese.",
+    "works": [
+      {
+        "id": 1,
+        "chefName": "Mia Wilson",
+        "yearsOfExperience": 3,
+        "numberOfRecipes": 30,
+        "likes": 40,
+        "imageUrl": "https://img.freepik.com/free-photo/portrait-confident-male-chef-kitchen_23-2147863584.jpg",
+        "name": "Spaghetti Carbonara",
+        "image": "https://media.istockphoto.com/id/95616888/photo/close-up-of-a-plate-of-fettuccine-carbonara.jpg?s=612x612&w=0&k=20&c=9Kbmlx_Emn84WYNMonxkBvdb78I9ZmGPXB3eE7QSlag=",
+        "description": "A classic Italian pasta dish made with eggs, pancetta, and parmesan cheese.",
+        "rating": "4.5",
+        "howcook": "Need to use up some of your leftover vegetables and other pantry staple ingredients? Look no further than a classic beef stir-fry. This beef and broccoli stir-fry comes together in just 25 minutes and only requires ingredients that you probably already have. And if you don't? You can just skip them! This dish is packed with veggies, beef, and saucy flavors for a weeknight dinner warrior that checks all the boxes. Served with rice or lo mein noodles, this will be the best beef stir-fry you've ever made.",
+        "ingrediant": [
+          {
+            "in1": "1 tablespoon olive oil"
+          },
+          {
+            "in2": "2 teaspoons butter (or sub with oil)"
+          },
+          {
+            "in3": "8- ounces | 250 grams bacon , trimmed of fat and cut into strips (I use shortcut bacon in Australia)"
+          },
+          {
+            "in4": "1 small onion , chopped"
+          },
+          {
+            "in5": "6 large cloves garlic , minced or finely chopped"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "chefName": "Mia Wilson",
+        "yearsOfExperience": 3,
+        "numberOfRecipes": 30,
+        "likes": 40,
+        "imageUrl": "https://img.freepik.com/free-photo/portrait-confident-male-chef-kitchen_23-2147863584.jpg",
+        "name": "Grilled Salmon",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuBIA_y-0ynwmXN7sgDo2FcQLy34ctPsrrKKnkm8Nw6Q&s",
+        "description": "A healthy and flavorful dish made with fresh salmon fillets and a herb marinade.",
+        "rating": "4.5",
+        "howcook": "Need to use up some of your leftover vegetables and other pantry staple ingredients? Look no further than a classic beef stir-fry. This beef and broccoli stir-fry comes together in just 25 minutes and only requires ingredients that you probably already have. And if you don't? You can just skip them! This dish is packed with veggies, beef, and saucy flavors for a weeknight dinner warrior that checks all the boxes. Served with rice or lo mein noodles, this will be the best beef stir-fry you've ever made.",
+        "ingrediant": [
+          {
+            "in1": "1 ½ pounds salmon fillets"
+          },
+          {
+            "in2": "lemon pepper to taste"
+          },
+          {
+            "in3": "garlic powder to taste"
+          },
+          {
+            "in4": "salt to taste"
+          },
+          {
+            "in5": "⅓ cup soy sauce"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "chefName": "Mia Wilson",
+        "yearsOfExperience": 3,
+        "numberOfRecipes": 30,
+        "likes": 40,
+        "imageUrl": "https://img.freepik.com/free-photo/portrait-confident-male-chef-kitchen_23-2147863584.jpg",
+        "name": "Beef Stir Fry",
+        "image": "https://media.istockphoto.com/id/642065070/photo/beef-and-broccoli-stir-fry.jpg?s=612x612&w=0&k=20&c=BwichHy9JJCe8u7Zdx4EDp3CzAn-bK-xBIRMl7u3UnM=",
+        "description": "A quick and easy Asian-inspired dish made with tender strips of beef, mixed vegetables, and a savory sauce.",
+        "rating": "4.5",
+        "howcook": "Need to use up some of your leftover vegetables and other pantry staple ingredients? Look no further than a classic beef stir-fry. This beef and broccoli stir-fry comes together in just 25 minutes and only requires ingredients that you probably already have. And if you don't? You can just skip them! This dish is packed with veggies, beef, and saucy flavors for a weeknight dinner warrior that checks all the boxes. Served with rice or lo mein noodles, this will be the best beef stir-fry you've ever made.",
+        "ingrediant": [
+          {
+            "in1": "2 tablespoons vegetable oil"
+          },
+          {
+            "in2": "1 pound beef sirloin, cut into 2-inch strips"
+          },
+          {
+            "in3": "2 carrots, thinly sliced"
+          },
+          {
+            "in4": "1 green onion, chopped"
+          },
+          {
+            "in5": "1 teaspoon minced garlic"
+          }
+        ]
+      }
+    ]
+  }
+]
